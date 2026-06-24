@@ -14,8 +14,6 @@ This tool is intended **only for educational and research purposes** — such as
 - **Not for IP theft:** Do not use this project to scrape, redistribute, or commercially exploit proprietary map imagery, meshes, or textures.
 - **Attribution required:** When displaying Google Photorealistic 3D Tiles, keep on-screen credits enabled (`showCreditsOnScreen` on the tileset) and comply with provider attribution guidelines.
 
-Scripts from the parent project's **Florida Navigation Game** (quiz mini-game) were intentionally excluded from this extract.
-
 ---
 
 ## What This Package Does
@@ -237,16 +235,6 @@ Vertical alignment uses `Cesium3DTileset.SampleHeightMostDetailed` so terrain si
 
 The included `Resources/FloridaCities/` folder contains 17 educational demo locations (Miami, Gainesville/UF, Cape Canaveral, etc.). Add your own `CityProfile` assets for any coordinates worldwide.
 
----
-
-## Removed from Parent Project
-
-These scripts were copied accidentally and are **not** part of Unity Cesium Extractor:
-
-- `CityMarkerManager.cs` — Florida Navigation Game city markers
-- `FloridaNavigationGame.cs`, `NavigationQuestionData.cs`, etc. — quiz game logic
-- `FixIosLdFlags.cs` — Firebase iOS linker workaround
-- `EnvironmentMaterialAutoFixer.cs` — runtime material fixer for unrelated environment meshes
 
 ---
 
